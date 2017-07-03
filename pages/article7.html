@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ветеринарный центр Багира</title>
+    <link rel="amphtml" href="http://bagira-vet.com.ua/pages-amp/article7-amp.html">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"
           type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
@@ -16,11 +17,11 @@
 <div id="top-nav">
     <ul>
         <li><a href="/">Главная</a></li>
-        <li><a href="about.php">О клинике</a></li>
-        <li><a href="price.php">Услуги и Цены</a></li>
-        <li><a href="articles.php">Статьи</a></li>
-        <li><a href="doctors.php">Врачи клиники</a></li>
-        <li><a href="contacts.php">Контакты</a></li>
+        <li><a href="about.html">О клинике</a></li>
+        <li><a href="price.html">Услуги и Цены</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="doctors.html">Врачи клиники</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
     </ul>
 </div>
 <section class="article">
@@ -28,7 +29,7 @@
         <h1>ПАНЛЕЙКОПЕНИЯ</h1>
         <div class="under-header-nav">
             <span class="back"><a href="/">Клиника Багира&emsp;</a></span><span class="this">&#62;&emsp;</span><span
-                    class="back"><a href="articles.php">Статьи&emsp;</a></span><span
+                    class="back"><a href="articles.html">Статьи&emsp;</a></span><span
                     class="this">&#62;&emsp;Панлейкопения</span>
         </div>
         <img src="../img/articles-img/7.jpg" alt="">
@@ -70,6 +71,55 @@
         </p>
     </div>
 </section>
-<?php include_once "../templates/footer.php" ?>
+<section class="footer-contacts">
+    <div class="wrap">
+        <div class="row contact">
+            <div class="column">
+                <div class="row">
+                    <span class="contact-header">предварительная запись:</span>
+                </div>
+                <div class="row">
+                    <div class="column contact-left">
+                        <span class="contacts"><span class="int">(097)</span> 578-22-74</span>
+                        <span class="contacts"><span class="int">(063)</span> 730-10-03</span>
+                    </div>
+                    <div class="column contact-left">
+                        <span class="contacts"><span class="int">(066)</span> 733-80-86</span>
+                        <span class="contacts"><span class="int">(045)</span> 727-68-03</span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="row">
+                    <span class="contact-header">наш адрес:</span>
+                </div>
+                <div class="row">
+                    <div class="column contact-right">
+                        <span class="contacts">ул. Юности, 2 г. Украинка Киевская об. Украина</span>
+                    </div>
+                </div>
+            </div>
+            <div class="column fb">
+                <div class="row">
+                    <span class="contact-header">мы в соц сетях:</span></div>
+                <div class="row">
+                    <a href="https://www.facebook.com/vetcentreBAGIRA/" target="_blank"><img src="../img/facebook.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer-map">
+    <div class="google-maps">
+        <div id="map-canvas"></div>
+    </div>
+</section>
+<footer>
+    <div class="wrap footer">
+        <p>ООО "Ветеринарный центр Багира". Все права защищены. Украинка 2017г.</p>
+        <p>Лицензия Главного управления Ветеринарной Медицины в г. Киеве Серия АЕ №575217 от 26.03.2015г.</p>
+        <p>При использовании материалов ссылка на сайт обязательна.</p>
+    </div>
+</footer>
 </body>
 </html>
