@@ -2,7 +2,7 @@
  * Created by User3 on 28.01.2017.
  */
 function initialize() {
-    var myLatlng = new google.maps.LatLng(50.151133, 30.741800);
+    var myLatlng = new google.maps.LatLng(50.1449959, 30.7490963);
     var mapOptions = {
         zoom: 15,
         zoomControl: false,
